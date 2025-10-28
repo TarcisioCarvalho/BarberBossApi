@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="PuppeteerSharp" Version="20.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\BarberBoss.Communication\BarberBoss.Communication.csproj" />
+    <ProjectReference Include="..\BarberBoss.Domain\BarberBoss.Domain.csproj" />
+    <ProjectReference Include="..\BarberBoss.Exception\BarberBoss.Exception.csproj" />
+  </ItemGroup>
+
+</Project>
